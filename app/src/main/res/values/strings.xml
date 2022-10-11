@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_show">Show</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="et_id">Enter your id</string>
+    <string name="et_name">Enter your name</string>
+    <string name="et_address">Enter your address</string>
+    <string name="et_cno">Enter your Contact number</string>
+</resources>
