@@ -156,8 +156,8 @@ public class MainActivity extends AppCompatActivity {
                 delRef.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        if (snapshot.hasChild("std2")){
-                            dbRef = FirebaseDatabase.getInstance().getReference().child("Student").child("std2");
+                        if (snapshot.hasChild("std5")){
+                            dbRef = FirebaseDatabase.getInstance().getReference().child("Student").child("std5");
                             dbRef.removeValue();
                             clearControls();
                             Toast.makeText(getApplicationContext(), "Data deleted successfully", Toast.LENGTH_SHORT).show();
