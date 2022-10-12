@@ -1,6 +1,6 @@
 # Firebase Real-time Database with Android Studio
 *Notes
-  - You might need to change compile and target sdk version to 30 or 31 if 33 is giving errors. 
+  - You might need to change compile and target sdk versions to 30 or 31 if 33 is giving errors. 
   - Add following codes in gradle.properties(project properties) to solve androix errors. 
       - android.useAndroidX=true
       - android.enableJetifier=true
